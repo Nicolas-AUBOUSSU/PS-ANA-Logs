@@ -2,15 +2,23 @@
 
 FR : Lancer le script : « Installation__Configuration.ps1 »
 Ce script permet de choisir le chemin ou est stocké l'application, que ce soit en local ou en réseau, pour une utilisation multiposte.
+
 Ensuite, l'utilisateur a la possibilité de personnaliser l'interface en spécifiant le nom, la couleur, le logo, et l'icône de l'application.
+
 Une fois ces paramètres configurés, le script crée le fichier pour lancer l'application, nommé "_lanceur.bat". Pour le déploiement, il suffit de créer une GPO (stratégie de groupe) qui crée un raccourci pointant vers le fichier "_lanceur.bat".
+
 Le logiciel centralise et génère des journaux pour tous les scripts lancés à partir de cette interface. Cela offre un historique détaillé des actions effectuées sur les postes et serveurs.
+
 Le contenu du script, le résultat des opérations, ainsi que toutes les saisies effectuées dans la fenêtre PowerShell, sont enregistrés jusqu'à la fermeture de celle-ci.
+
 Il est également possible de lancer l'édition du code, permettant ainsi d'ouvrir le script dans l'éditeur de notre choix et de créer une copie de sauvegarde avant toute modification.
+
 Pour faciliter la recherche des journaux, ces derniers sont référencés dans un fichier XLSX, ce qui permet d'effectuer des recherches rapides par ordinateur, script, date, ...
 
 À noter que j'ai utilisé Visual Studio Code avec GitHub Copilot pour le développement Je suis à la Version 0.9. J'ai effectué des tests personnels, et j'attends vos retours pour corriger d'éventuels problèmes avant de passer à la Version 1.
+
 Je suis également ouvert à toutes suggestions supplémentaires que vous pourriez avoir.
+
 
 _______________________________________________________________________________________________
 
